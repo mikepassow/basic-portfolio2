@@ -187,6 +187,8 @@ footer {
 width: 100%;
 border: 0 none;
 opacity: .8;
+height: 250px;
+border: 1px solid black;
 }
 
 
@@ -242,3 +244,44 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 980px) {
+    .portfolio_pic {
+        width: 100%;
+        
+    }
+    
+    .portfolio h3 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .portfolioImage {
+        width: 246px;
+        height: 180px;
+        
+    }
+    
+    .portfolio h3 {
+        width: 246px;
+        height: auto;
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .portfolioImage {
+        width: 219px;
+        height: 160px;
+        
+    }
+    
+    .portfolio h3 {
+        width: 219px;
+        height: auto;
+        font-size: 80%;
+    }
+}
+
